@@ -9,6 +9,10 @@ from tkinter.filedialog import asksaveasfilename
 import glm
 from PIL import Image, ImageTk, ImageDraw
 
+
+__author__ = 'simens_green'
+__version__ = '1.0.0'
+
 # Имена доступных секций
 # Available section names
 SECTIONS = 'first', 'second', 'third', 'fourth'
@@ -160,6 +164,7 @@ class App:
 
     def __init__(self):
         self.root = tk.Tk()
+        self.root.title('Barnsley\'s Fern')
 
         self.__load_tk_vars()
 
